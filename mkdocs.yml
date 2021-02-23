@@ -21,8 +21,6 @@ theme:
     custom_dir: overrides
 
     # 404 Page
-    static_templates:
-        - 404.html
 
     # Don't include MKDoc's JavaScript
     include_search_page: false
