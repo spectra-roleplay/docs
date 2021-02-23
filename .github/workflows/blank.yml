@@ -2,7 +2,7 @@ name: Deploy MkDocs
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: master
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -39,6 +39,6 @@ jobs:
       - run: mkdocs build
 
       - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        uses: mhausenblas/mkdocs-deploy-gh-pages@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
