@@ -17,7 +17,7 @@ strict: true
 
 # Theme
 theme:
-    name: gitbook
+    name: material
     custom_dir: overrides
 
     # 404 Page
