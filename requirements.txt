@@ -3,5 +3,5 @@ mkdocs>=1.1
 Pygments>=2.4
 markdown>=3.2
 pymdown-extensions>=7.0
-mkdocs-gitbook-extensions>=1.0
+mkdocs-gitbook>=0.0.1
 mkdocs-awesome-pages-plugin>=2.2.1
