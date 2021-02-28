@@ -17,3 +17,7 @@
 1. Het adventeren van andere discord servers is verboden.
 
 1. DM/tag geen staff leden. Maak hiervoor een ticket aan.
+
+1. Volg altijd de aanwijzingen van staffleden op.
+
+1. het liegen tegen staff leden is verboden.
