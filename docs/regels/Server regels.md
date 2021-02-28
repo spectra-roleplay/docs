@@ -36,6 +36,30 @@
 
 1. **Powergaming.** Als je bijvoorbeeld iemand wilt ontvoeren en deze persoon werkt goed mee. Als je hem dan nog steeds neerschiet valt onder powergamen en dit is **niet toegestaan.**
 
+1. **GTA style driving is niet toegestaan** om met onrealistische rijstijl te rijden. Dit houd in met 150 km/u ofroad te gaan of over een schans heen te rijden.
+
+1. **Het is niet toegestaan om offroad te rijden** zonder offroad banden of voertuig.
+
+1. Wees zuinig op je leven. Word je onder schot gehouden door meerdere personen? Gedraag je dan ook dat je leven op het spel staat en werk mee.
+
+1. Het bemoeien in een roleplay scenario die niks met jou te maken heeft is verboden. Bijvoorbeeld mee rijden met een politie actervolging.
+
+## Karakter regels
+
+1. Het is verboden om scheldwoorden of andere aanstootgevende namen of tekst karakters te gebruiken.
+
+1. Het klonen van een andere karakter of speler is niet toegestaan.
+
+1. Elke karakter moet een realistische geboorte datum en nationaliteit hebben.
+
+1. Namen moeten realistisch zijn.
+
+1. Het is verboden om geen admin/test kleding te dragen
+
+1. Het is verboden om hulpdienst of ANWB kleding te dragen als je daar niet in dienst bent.
+
+1. Het is verboden om doorzichtbare kleding stukken te dragen.
+
 ## Locaties
 
 1. Enkele gebieden zijn verboden te betreden en worden uitsluitend gebruikt voor opleidingsdoeleinden en/of evenementen:
@@ -75,3 +99,5 @@
 1. **Het overvallen van winkels en banken is toegestaan met hostage.** (Hostage mag niet een vriend zijn waarmee het van te voren is afgesproken).
 
 1. **Het vermoorden van burgers is toegestaan mits er een goede roleplay reden achter zit.**
+
+1. **Het schieten vanuit een voertuig is niet toegestaan** als je de bestuurder bent van een voertuig.
