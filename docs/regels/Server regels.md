@@ -68,7 +68,7 @@
 
 ## Criminaliteit regels
 
-1. Geef nieuwe spelers altijd een kans. Bekijk goed wie je gaat overvallen bijvoorbeeld en denk extra na.
+1. Geef nieuwe spelers altijd een kans. Bekijk goed wie je gaat overvallen en denk extra na.
 
 1. **Het gebruik van helikopters en vliegtuigen is niet toegestaan,** uitgezonderd medewerkers in dienst van politie en ambulancedienst. Of als het met toestemming is van staff.
 
