@@ -1,12 +1,12 @@
 ##### Disclaimer.
 
-###### De regels kunnen ten alle tijden worden aangepast.
+###### De regels kunnen ten allen tijde worden aangepast.
 
-###### Eventuele nieuw toegevoegde regels gelden per direct. Dat betekend ook dat er naar de nieuwe regels word gekeken bij huidige active situaties.
+###### Eventuele nieuw toegevoegde regels gelden per direct. Dat betekend ook dat er naar de nieuwe regels wordt gekeken bij huidige actieve situaties.
 
 ###### Dit zijn regels die worden gehandhaafd door crewleden. Overtreding hiervan kan leiden tot OOC sancties zoals waarschuwingen of verbanning.
 
-###### De dikgedrukte text betekend niet dat dat de hele regel is. Lees altijd verder. Het is zo gedaan zodat je makkelijk naar een regel kan zoeken.
+###### De dikgedrukte text betekent niet dat dat de hele regel is. Lees altijd verder. Het is zo gedaan zodat je makkelijk naar een regel kan zoeken.
 
 # Ingame regels
 
@@ -22,13 +22,13 @@
 
 1. **Misbruik van bugs / exploits is strikt verboden** en zal resulteren in een permanente ban. Kom je een bug tegen? Meld dit direct! Afhankelijk van de ernst van de bug krijg je hier een leuke beloning voor.
 
-1. **Combat logging** (uitloggen in een roleplay-scenario) is niet toegestaan. Als je spel onverwachts afsluit of vast loopt, meld dit dan direct (via Discord) bij de spelers betrokken bij het scenario.
+1. **Combat logging** (uitloggen in een roleplay-scenario) is niet toegestaan. Als je spel onverwachts afsluit of vastloopt, meld dit dan direct (via Discord) bij de spelers betrokken bij het scenario.
 
 1. **Meta-gaming is niet toegestaan.** Dit betekent het delen van in-Karakter verkregen informatie (bijv. locaties, signalement) met andere spelers buiten het spel om (bijv. Discord, Whatsapp). Gebruik hiervoor uitsluitend in-game voice chat of je telefoon (gesprek, twitter, berichten etc). Onder meta-gaming valt ook het gebruiken van informatie uit je 'vorige leven' nadat je dood bent gegaan (VDM/RDM etc uitgezonderd).
 
-1. **Spelers met een overheidsbaan zijn niet toegestaan deel te nemen in illegale activiteiten.** Behalve als het op een 2de Karakter is. Maar het delen van informatie tussen je Karakter's is strikt verboden en zal resulteren in een permanente ban.
+1. **Spelers met een overheidsbaan zijn niet toegestaan deel te nemen in illegale activiteiten.** Behalve als het op een 2de Karakter is. Maar het delen van informatie tussen je Karakters is strikt verboden en zal resulteren in een permanente ban.
 
-1. **De serverregels kunnen ten alle tijden worden gewijzigd.** Elke regel wijzeging geld per direct en heeft dus ook effect op alle huidige situaties.
+1. **De server regels kunnen ten alle tijde worden gewijzigd.** Elke regel wijziging geldt per direct en heeft dus ook effect op alle huidige situaties.
 
 1. **Cop baiting(Het uitlokken van een agent) is niet toegestaan.**
 
@@ -36,13 +36,13 @@
 
 1. **Powergaming.** Als je bijvoorbeeld iemand wilt ontvoeren en deze persoon werkt goed mee. Als je hem dan nog steeds neerschiet valt onder powergamen en dit is **niet toegestaan.**
 
-1. **GTA style driving is niet toegestaan** om met onrealistische rijstijl te rijden. Dit houd in met 150 km/u ofroad te gaan of over een schans heen te rijden.
+1. **GTA style driving is niet toegestaan** om met onrealistische rijstijl te rijden. Dit houd in met 150 km/u offroad te gaan of over een schans heen te rijden.
 
 1. **Het is niet toegestaan om offroad te rijden** zonder offroad banden of voertuig.
 
 1. Wees zuinig op je leven. Word je onder schot gehouden door meerdere personen? Gedraag je dan ook dat je leven op het spel staat en werk mee.
 
-1. Het bemoeien in een roleplay scenario die niks met jou te maken heeft is verboden. Bijvoorbeeld mee rijden met een politie actervolging.
+1. Het bemoeien in een roleplay scenario die niks met jou te maken heeft is verboden. Bijvoorbeeld mee rijden met een politieachtervolging.
 
 ## Karakter regels
 
@@ -50,15 +50,15 @@
 
 1. Het klonen van een andere karakter of speler is niet toegestaan.
 
-1. Elke karakter moet een realistische geboorte datum en nationaliteit hebben.
+1. Elke karakter moet een realistische geboortedatum en nationaliteit hebben.
 
-1. Namen moeten realistisch zijn.
+1. Speler namen moeten realistisch zijn.
 
-1. Het is verboden om geen admin/test kleding te dragen
+1. Het is verboden om admin of andere test kleding te dragen
 
 1. Het is verboden om hulpdienst of ANWB kleding te dragen als je daar niet in dienst bent.
 
-1. Het is verboden om doorzichtbare kleding stukken te dragen.
+1. Het is verboden om doorzichtbare kledingstukken te dragen.
 
 ## Locaties
 
@@ -83,18 +83,17 @@
 1. **De volgende criminele activiteiten toegestaan als er meer dan aangeven politie-medewerkers in dienst zijn**:
 
    - Het beroven van andere spelers: 2 agenten
-   - Het stelen van voertuigen van andere spelers: 2 agenten
-   - Overvallen van een winkel's: 3 agenten.
+   - Overvallen van een winkels: 3 agenten.
    - Het beroven/gijzelen van agenten: 4 agenten
    - Overvallen van kleine banken: 4 agenten.
    - Overvallen van juwelier: 4 agenten.
    - Overvallen van de grote bank: 6 agenten.
 
-1. **Het ontvoeren van burgers is toegestaan** zolang er een goede roleplay reden is en als er genoeg agenten in diest zijn(zie Criminaliteit regels. 7).
+1. **Het ontvoeren van burgers is toegestaan** zolang er een goede roleplay reden is en als er genoeg agenten in dienst zijn(zie Criminaliteit regels. 7).
 
 1. **Het schieten zonder goede reden is niet toegestaan.** Zorg er dus voor dat als je schiet je het met een goede reden doet.
 
-1. **Het overvallen van burgers is toegestaan**, mits het op een realistische wijze gebeurd en als er genoeg agenten in diest zijn(zie Criminaliteit regels. 7).
+1. **Het overvallen van burgers is toegestaan**, mits het op een realistische wijze gebeurd en als er genoeg agenten in dienst zijn(zie Criminaliteit regels. 7).
 
 1. **Het overvallen van winkels en banken is toegestaan met hostage.** (Hostage mag niet een vriend zijn waarmee het van te voren is afgesproken).
 
