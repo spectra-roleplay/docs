@@ -9,15 +9,15 @@
 1. Het is verboden om NSFW(Not safe for work) content te delen.
 
 1. Alle informatie wat je kan vinden in discord mag niet ingame gebruikt worden tegen andere personen/instanties.
-   Dit geld niet in de volgende kanalen:
+   Dit geldt niet in de volgende kanalen:
 
    - `#Twitter`
    - `#Voertuigen`
 
-1. Het adventeren van andere discord servers is verboden.
+1. Het adverteren van andere discord servers is verboden.
 
-1. DM/tag geen staff leden. Maak hiervoor een ticket aan.
+1. DM/tag geen staffleden. Maak hiervoor een ticket aan.
 
 1. Volg altijd de aanwijzingen van staffleden op.
 
-1. het liegen tegen staff leden is verboden.
+1. het liegen tegen staffleden is verboden.
