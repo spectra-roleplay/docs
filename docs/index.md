@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Home
 ---
 
 # Welkome op de Spectra docs
