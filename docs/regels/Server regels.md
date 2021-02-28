@@ -6,11 +6,13 @@
 
 ###### Dit zijn regels die worden gehandhaafd door crewleden. Overtreding hiervan kan leiden tot OOC sancties zoals waarschuwingen of verbanning.
 
+###### De dikgedrukte text betekend niet dat dat de hele regel is. Lees altijd verder. Het is zo gedaan zodat je makkelijk naar een regel kan zoeken.
+
 # Ingame regels
 
-1. **Je dient altijd ingame "in Karakter"** te zijn. ooc(out of Karakter) praten is verboden. Als er enige problemen zijn met roleplay maak dan een ticket aan als je klaar bent met je huidige scenario.
-
 1. **Discriminatie wegens godsdienst, levensovertuiging, politieke gezindheid, ras, geslacht of op welke grond dan ook, is niet toegestaan. Racistische opmerkingen en/of uitingen worden niet getolereerd**
+
+1. **Je dient altijd ingame "in Karakter"** te zijn. ooc(out of Karakter) praten is verboden. Als er enige problemen zijn met roleplay maak dan een ticket aan als je klaar bent met je huidige scenario.
 
 1. **Vehicle Deathmatch (VDM) is niet toegestaan.** Gebruik geen voertuigen om op spelers in te rijden etc. Het plegen van VDM zal resulteren in een ban.
 
