@@ -36,10 +36,6 @@
 
 1. **Powergaming.** Als je bijvoorbeeld iemand wilt ontvoeren en deze persoon werkt goed mee. Als je hem dan nog steeds neerschiet valt onder powergamen en dit is **niet toegestaan.**
 
-1. **GTA style driving is niet toegestaan** om met onrealistische rijstijl te rijden. Dit houd in met 150 km/u offroad te gaan of over een schans heen te rijden.
-
-1. **Het is niet toegestaan om offroad te rijden** zonder offroad banden of voertuig.
-
 1. Wees zuinig op je leven. Word je onder schot gehouden door meerdere personen? Gedraag je dan ook dat je leven op het spel staat en werk mee.
 
 1. Het bemoeien in een roleplay scenario die niks met jou te maken heeft is verboden. Bijvoorbeeld mee rijden met een politieachtervolging.
