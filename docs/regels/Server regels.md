@@ -96,3 +96,7 @@
 1. **Het vermoorden van burgers is toegestaan mits er een goede roleplay reden achter zit.**
 
 1. **Het schieten vanuit een voertuig is niet toegestaan** als je de bestuurder bent van een voertuig.
+2. 
+3. - Combat Logging:
+4. - Het is niet toegestaan om tijdens een roleplay situatie/scenario uit te loggen. 
+* Indien je echt moet gaan. Geef dan aan dat je dringend de stad moet verlaten.
