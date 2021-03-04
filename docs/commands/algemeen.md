@@ -53,6 +53,13 @@ Hier mee geef je aan actie aan die je niet in game kan doen zoals tegen de muur 
 
 ```lua
 /112
+/112a (voor anonieme melding)
+```
+
+# Politie melding
+
+```lua
+/pmelding <bericht>
 ```
 
 # Handen omhoog doen
