@@ -48,7 +48,7 @@ Hoe voeg je dingen toe?
       ![](./assets/images/addfile.png)
    1. Geef het bestand een naam, hier **moet** `.md` achter staan!
       ![](./assets/images/name.png)
-   1. zet nu in het bestand wat jij er in wil hebben.
+   1. zet nu in het bestand wat jij erin wil hebben.
    1. Maak een commit, zorg dat je een klik duidelijke titel geeft!
       ![](./assets/images/commit.png)
 
@@ -56,10 +56,10 @@ Hoe voeg je dingen toe?
 
 1. Klik op pullrequest
    ![](./assets/images/pull.png)
-1. Zorg er voor dat het eerste deel het zelfde is als in de foto.
+1. Zorg er voor dat het eerste deel hetzelfde is als in de foto.
    ![](./assets/images/pull2.png)
 1. Klik op create pull request.
    Zet hier duidelijk neer waarom je deze veranderingen wilt toevoegen.
    ![](./assets/images/pull3.png)
 
-Als je de bovenstaande stappen gedaan hebt dan zal staff het gaan bekijken en als je het goed vinden dan kom thet inde docs!
+Als je de bovenstaande stappen gedaan hebt, dan zal staff ernaar gaan kijken of het goed is. Dan komt het in de docs!
