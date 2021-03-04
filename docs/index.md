@@ -14,7 +14,7 @@ Hoe voeg je dingen toe?
 
 ### Regels
 
-1. Zet geen informatie neer over het criminele locaties. Het is het leukst als ze dat zelf kunnen uitzoeken.
+1. Zet geen informatie neer over criminele locaties. Het is het leukst als ze dat zelf kunnen uitzoeken.
 
 ## How to
 
