@@ -8,7 +8,7 @@ Hier kan je allemaal informatie vinden over **[SPECTRA ROLEPLAY](https://spectra
 
 ## Help de docs verbeteren!
 
-Staan er dingen niet op de docs die jij mischien wel kent? Help ons en voeg ze toe.
+Staan er dingen niet op de docs die jij misschien wel kent? Help ons en voeg ze toe.
 
 Hoe voeg je dingen toe?
 
@@ -25,11 +25,11 @@ Hoe voeg je dingen toe?
 1. Druk op je profiel foto en klik op Your repositories.
    ![](./assets/images/repos.png)
    Je komt nu in een lijst met met al je repo's
-1. Klick op de repo die "docs" heet.
+1. klik op de repo die "docs" heet.
    ![](./assets/images/klickrepo.png)
    Je bent zit nu in jouw kopie van de repo.
 1. Maak veranderingen of voeg dingen toe.
-   De paginas zitten in de map `docs` hierin zie je meerdere mapjes en bestanden, ieder mapje is een subcatogorie en ieder `md` bestand is een pagina.
+   De paginas zitten in de map `docs` hierin zie je meerdere mappen en bestanden, ieder mapje is een subcategorie en ieder `md` bestand is een pagina.
 
    ### Hoe pas je een pagina aan
 
@@ -38,18 +38,18 @@ Hoe voeg je dingen toe?
    1. Klik nu op de aanpas knop(potlood icon)
       ![](./assets/images/edit.png)
       Je kunt nu dingen in de pagina aanpassen.
-   1. Maak een commit, zorg dat je een duidelijte titel geeft!
+   1. Maak een commit, zorg dat je een klik duidelijke titel geeft!
       ![](./assets/images/commit.png)
 
    ### Hoe voeg je pagina's toe
 
-   1. Ga naar de subcatogorie waar jij een pagina toe wil voegen
+   1. Ga naar de subcategorie waar jij een pagina toe wil voegen
    1. Klik op `add file/create new file`
       ![](./assets/images/addfile.png)
    1. Geef het bestand een naam, hier **moet** `.md` achter staan!
       ![](./assets/images/name.png)
    1. zet nu in het bestand wat jij er in wil hebben.
-   1. Maak een commit, zorg dat je een duidelijte titel geeft!
+   1. Maak een commit, zorg dat je een klik duidelijke titel geeft!
       ![](./assets/images/commit.png)
 
 ### Veranderingen doorsturen
