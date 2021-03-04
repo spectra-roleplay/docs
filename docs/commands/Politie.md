@@ -158,3 +158,9 @@
 ```lua
 /neemdna <id>
 ```
+
+## Spikestrip neerleggen
+
+```lua
+/spikestrip
+```
