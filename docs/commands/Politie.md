@@ -182,3 +182,15 @@
 ```lua
 /revivep
 ```
+
+## Speler genezen
+
+```lua
+/genees
+```
+
+## Speler status bekijken
+
+```lua
+/status
+```
