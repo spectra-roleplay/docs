@@ -164,3 +164,15 @@
 ```lua
 /spikestrip
 ```
+
+## Voertuig openbreken
+
+```lua
+/forceopendoor
+```
+
+## Voertuig Starten
+
+```lua
+/forcestartengine
+```
