@@ -1,0 +1,1243 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="SpectraRP server informatie">
+      
+      
+      
+        <meta name="author" content="SpectraRP">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.6">
+    
+    
+      
+        <title>Politie commands - SpectraRP Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2c0c5eaf.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,400i,700%7CFira+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Fira Sans";--md-code-font-family:"Fira Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+	<script data-ad-client="ca-pub-9580213111363531" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#politie-commands" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="SpectraRP Docs" class="md-header__button md-logo" aria-label="SpectraRP Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SpectraRP Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Politie commands
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/spectra-roleplay/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    SpectraRP docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="SpectraRP Docs" class="md-nav__button md-logo" aria-label="SpectraRP Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+
+    </a>
+    SpectraRP Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/spectra-roleplay/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    SpectraRP docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Regels
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Regels" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Regels
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regels/Server%20regels/" class="md-nav__link">
+        Server regels
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regels/Discord%20regels/" class="md-nav__link">
+        Discord regels
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regels/Politie%20regels/" class="md-nav__link">
+        Politie regels
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regels/Content%20creation/" class="md-nav__link">
+        Content creation regels
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regels/Refunds/" class="md-nav__link">
+        Refund regels
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      <label class="md-nav__link" for="__nav_3">
+        Commands
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Commands" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Commands
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Politie commands
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Politie commands
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#soft-cuffs" class="md-nav__link">
+    soft cuffs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cuffs" class="md-nav__link">
+    cuffs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-vehicle-tunes" class="md-nav__link">
+    check vehicle tunes
+  </a>
+  
+    <nav class="md-nav" aria-label="check vehicle tunes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vanaf-rang-agent" class="md-nav__link">
+    vanaf rang "Agent"
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plaatsenverwijderen-objects" class="md-nav__link">
+    plaatsen/verwijderen objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escort" class="md-nav__link">
+    Escort
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#databank" class="md-nav__link">
+    Databank
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#callsign" class="md-nav__link">
+    Callsign
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clear-kogel-hulsen" class="md-nav__link">
+    Clear kogel hulsen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enkeltje-gevangenis" class="md-nav__link">
+    Enkeltje gevangenis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enkeltje-uit-de-gevangenis" class="md-nav__link">
+    Enkeltje uit de gevangenis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloed-verwijderen" class="md-nav__link">
+    Bloed verwijderen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geld-in-beslag-nemen" class="md-nav__link">
+    Geld in beslag nemen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cameras-bekijken" class="md-nav__link">
+    Camera's bekijken
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kenteken-markeren-in-anpr" class="md-nav__link">
+    Kenteken markeren in ANPR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kenteken-verwijderen-van-anpr" class="md-nav__link">
+    Kenteken verwijderen van ANPR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bekijk-voertuig-in-anpr" class="md-nav__link">
+    Bekijk voertuig in ANPR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voertuig-naar-de-depo-sturen" class="md-nav__link">
+    Voertuig naar de depo sturen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voertuig-in-beslag-nemen" class="md-nav__link">
+    Voertuig in beslag nemen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#betalen" class="md-nav__link">
+    Betalen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#snelheids-radar" class="md-nav__link">
+    Snelheids radar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#112-melding-reageren" class="md-nav__link">
+    112 melding reageren
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enkelband-omdoen" class="md-nav__link">
+    Enkelband omdoen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enkelband-locatie-checken" class="md-nav__link">
+    Enkelband locatie checken
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locatie-sturen" class="md-nav__link">
+    Locatie sturen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rijbewijs-in-beslagnemen" class="md-nav__link">
+    Rijbewijs in beslagnemen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dna-afnemen" class="md-nav__link">
+    DNA afnemen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spikestrip-neerleggen" class="md-nav__link">
+    Spikestrip neerleggen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voertuig-openbreken" class="md-nav__link">
+    Voertuig openbreken
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voertuig-starten" class="md-nav__link">
+    Voertuig Starten
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speler-reviven" class="md-nav__link">
+    Speler reviven
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speler-genezen" class="md-nav__link">
+    Speler genezen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speler-status-bekijken" class="md-nav__link">
+    Speler status bekijken
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../algemeen/" class="md-nav__link">
+        Algemene commands
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Jobs
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Jobs" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Jobs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../jobs/bergnet_chauffeur/" class="md-nav__link">
+        Bergnet chauffeur
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../jobs/hotdog_verkoper/" class="md-nav__link">
+        Hotdog verkoper
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../jobs/laagvliet_chauffeur/" class="md-nav__link">
+        Laagvliet chauffeur
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../jobs/taco_verkoper/" class="md-nav__link">
+        Taco verkoper
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../jobs/taxi_chauffeur/" class="md-nav__link">
+        Taxi chauffeur
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../jobs/vuilnisman/" class="md-nav__link">
+        Vuilnisman
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Utils
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Utils" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Utils
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/skateboard/" class="md-nav__link">
+        Skateboard
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#soft-cuffs" class="md-nav__link">
+    soft cuffs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cuffs" class="md-nav__link">
+    cuffs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-vehicle-tunes" class="md-nav__link">
+    check vehicle tunes
+  </a>
+  
+    <nav class="md-nav" aria-label="check vehicle tunes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vanaf-rang-agent" class="md-nav__link">
+    vanaf rang "Agent"
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plaatsenverwijderen-objects" class="md-nav__link">
+    plaatsen/verwijderen objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escort" class="md-nav__link">
+    Escort
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#databank" class="md-nav__link">
+    Databank
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#callsign" class="md-nav__link">
+    Callsign
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clear-kogel-hulsen" class="md-nav__link">
+    Clear kogel hulsen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enkeltje-gevangenis" class="md-nav__link">
+    Enkeltje gevangenis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enkeltje-uit-de-gevangenis" class="md-nav__link">
+    Enkeltje uit de gevangenis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloed-verwijderen" class="md-nav__link">
+    Bloed verwijderen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geld-in-beslag-nemen" class="md-nav__link">
+    Geld in beslag nemen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cameras-bekijken" class="md-nav__link">
+    Camera's bekijken
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kenteken-markeren-in-anpr" class="md-nav__link">
+    Kenteken markeren in ANPR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kenteken-verwijderen-van-anpr" class="md-nav__link">
+    Kenteken verwijderen van ANPR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bekijk-voertuig-in-anpr" class="md-nav__link">
+    Bekijk voertuig in ANPR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voertuig-naar-de-depo-sturen" class="md-nav__link">
+    Voertuig naar de depo sturen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voertuig-in-beslag-nemen" class="md-nav__link">
+    Voertuig in beslag nemen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#betalen" class="md-nav__link">
+    Betalen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#snelheids-radar" class="md-nav__link">
+    Snelheids radar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#112-melding-reageren" class="md-nav__link">
+    112 melding reageren
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enkelband-omdoen" class="md-nav__link">
+    Enkelband omdoen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enkelband-locatie-checken" class="md-nav__link">
+    Enkelband locatie checken
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locatie-sturen" class="md-nav__link">
+    Locatie sturen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rijbewijs-in-beslagnemen" class="md-nav__link">
+    Rijbewijs in beslagnemen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dna-afnemen" class="md-nav__link">
+    DNA afnemen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spikestrip-neerleggen" class="md-nav__link">
+    Spikestrip neerleggen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voertuig-openbreken" class="md-nav__link">
+    Voertuig openbreken
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voertuig-starten" class="md-nav__link">
+    Voertuig Starten
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speler-reviven" class="md-nav__link">
+    Speler reviven
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speler-genezen" class="md-nav__link">
+    Speler genezen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speler-status-bekijken" class="md-nav__link">
+    Speler status bekijken
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="politie-commands">Politie commands<a class="headerlink" href="#politie-commands" title="Permanent link">&para;</a></h1>
+<h2 id="soft-cuffs">soft cuffs<a class="headerlink" href="#soft-cuffs" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">sc</span>
+</code></pre></div>
+<h2 id="cuffs">cuffs<a class="headerlink" href="#cuffs" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">cuff</span>
+</code></pre></div>
+<h2 id="check-vehicle-tunes">check vehicle tunes<a class="headerlink" href="#check-vehicle-tunes" title="Permanent link">&para;</a></h2>
+<h5 id="vanaf-rang-agent">vanaf rang "Agent"<a class="headerlink" href="#vanaf-rang-agent" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">sc</span>
+</code></pre></div>
+<h2 id="plaatsenverwijderen-objects">plaatsen/verwijderen objects<a class="headerlink" href="#plaatsenverwijderen-objects" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">pobject</span> <span class="o">&lt;</span><span class="n">pion</span><span class="p">,</span><span class="n">barrier</span><span class="p">,</span><span class="n">schotten</span><span class="p">,</span><span class="n">tent</span><span class="p">,</span><span class="n">light</span><span class="p">,</span><span class="n">delete</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="escort">Escort<a class="headerlink" href="#escort" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">escort</span>
+</code></pre></div>
+<h2 id="databank">Databank<a class="headerlink" href="#databank" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">databank</span>
+</code></pre></div>
+<h2 id="callsign">Callsign<a class="headerlink" href="#callsign" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">callsign</span> <span class="o">&lt;</span><span class="n">nieuwe</span> <span class="n">roepnummer</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="clear-kogel-hulsen">Clear kogel hulsen<a class="headerlink" href="#clear-kogel-hulsen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">clearcasings</span>
+</code></pre></div>
+<h2 id="enkeltje-gevangenis">Enkeltje gevangenis<a class="headerlink" href="#enkeltje-gevangenis" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">jail</span> <span class="o">&lt;</span><span class="n">id</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">duration</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="enkeltje-uit-de-gevangenis">Enkeltje uit de gevangenis<a class="headerlink" href="#enkeltje-uit-de-gevangenis" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">unjail</span> <span class="o">&lt;</span><span class="n">id</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="bloed-verwijderen">Bloed verwijderen<a class="headerlink" href="#bloed-verwijderen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">clearblood</span>
+</code></pre></div>
+<h2 id="geld-in-beslag-nemen">Geld in beslag nemen<a class="headerlink" href="#geld-in-beslag-nemen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">seizecash</span>
+</code></pre></div>
+<h2 id="cameras-bekijken">Camera's bekijken<a class="headerlink" href="#cameras-bekijken" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">cam</span> <span class="o">&lt;</span><span class="n">camID</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="kenteken-markeren-in-anpr">Kenteken markeren in ANPR<a class="headerlink" href="#kenteken-markeren-in-anpr" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">flagplate</span> <span class="o">&lt;</span><span class="n">plate</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">reden</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="kenteken-verwijderen-van-anpr">Kenteken verwijderen van ANPR<a class="headerlink" href="#kenteken-verwijderen-van-anpr" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">unflagplate</span> <span class="o">&lt;</span><span class="n">plate</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="bekijk-voertuig-in-anpr">Bekijk voertuig in ANPR<a class="headerlink" href="#bekijk-voertuig-in-anpr" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">plateinfo</span> <span class="o">&lt;</span><span class="n">plate</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="voertuig-naar-de-depo-sturen">Voertuig naar de depo sturen<a class="headerlink" href="#voertuig-naar-de-depo-sturen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">depot</span> <span class="o">&lt;</span><span class="n">prijs</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="voertuig-in-beslag-nemen">Voertuig in beslag nemen<a class="headerlink" href="#voertuig-in-beslag-nemen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">beslag</span>
+</code></pre></div>
+<h2 id="betalen">Betalen<a class="headerlink" href="#betalen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">paytow</span> <span class="o">&lt;</span><span class="n">id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">paylaw</span> <span class="o">&lt;</span><span class="n">id</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="snelheids-radar">Snelheids radar<a class="headerlink" href="#snelheids-radar" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">radar</span>
+</code></pre></div>
+<h2 id="112-melding-reageren">112 melding reageren<a class="headerlink" href="#112-melding-reageren" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="mi">112</span><span class="n">r</span>
+</code></pre></div>
+<h2 id="enkelband-omdoen">Enkelband omdoen<a class="headerlink" href="#enkelband-omdoen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">enkelband</span>
+</code></pre></div>
+<h2 id="enkelband-locatie-checken">Enkelband locatie checken<a class="headerlink" href="#enkelband-locatie-checken" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">enkelbandlocatie</span> <span class="o">&lt;</span><span class="n">BSN</span> <span class="n">van</span> <span class="n">target</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="locatie-sturen">Locatie sturen<a class="headerlink" href="#locatie-sturen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">locatie</span>
+</code></pre></div>
+<h2 id="rijbewijs-in-beslagnemen">Rijbewijs in beslagnemen<a class="headerlink" href="#rijbewijs-in-beslagnemen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">neemrijbewijs</span>
+</code></pre></div>
+<h2 id="dna-afnemen">DNA afnemen<a class="headerlink" href="#dna-afnemen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">neemdna</span> <span class="o">&lt;</span><span class="n">id</span><span class="o">&gt;</span>
+</code></pre></div>
+<h2 id="spikestrip-neerleggen">Spikestrip neerleggen<a class="headerlink" href="#spikestrip-neerleggen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">spikestrip</span>
+</code></pre></div>
+<h2 id="voertuig-openbreken">Voertuig openbreken<a class="headerlink" href="#voertuig-openbreken" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">forceopendoor</span>
+</code></pre></div>
+<h2 id="voertuig-starten">Voertuig Starten<a class="headerlink" href="#voertuig-starten" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">forcestartengine</span>
+</code></pre></div>
+<h2 id="speler-reviven">Speler reviven<a class="headerlink" href="#speler-reviven" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">revivep</span>
+</code></pre></div>
+<h2 id="speler-genezen">Speler genezen<a class="headerlink" href="#speler-genezen" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">genees</span>
+</code></pre></div>
+<h2 id="speler-status-bekijken">Speler status bekijken<a class="headerlink" href="#speler-status-bekijken" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="n">status</span>
+</code></pre></div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<ins class="adsbygoogle" style="display:block;text-align:center;width:75vw;max-width:75vw;height:90px;max-height:90px;" data-ad-client="ca-pub-9580213111363531" data-ad-slot="1846082563" data-ad-format="auto" data-full-width-responsive="true">
+	</ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../../regels/Refunds/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Refund regels
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../algemeen/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Algemene commands
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright; 2021 SpectraRP
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="http://discord.spectrarp.nl" target="_blank" rel="noopener" title="discord.spectrarp.nl" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a1c7c35e.min.js"></script>
+      
+    
+  </body>
+</html>
