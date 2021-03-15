@@ -164,3 +164,33 @@
 ```lua
 /spikestrip
 ```
+
+## Voertuig openbreken
+
+```lua
+/forceopendoor
+```
+
+## Voertuig Starten
+
+```lua
+/forcestartengine
+```
+
+## Speler reviven
+
+```lua
+/revivep
+```
+
+## Speler genezen
+
+```lua
+/genees
+```
+
+## Speler status bekijken
+
+```lua
+/status
+```
